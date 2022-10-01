@@ -73,7 +73,7 @@ const Transactions = () => {
 					</div>
 				</Swiper>) : (
 				<div className='connect_wallet_container'>
-					<p>Connect to wallet to view latest coffess sent :)</p>
+					<p>Connect to wallet to view latest coffees sent :)</p>
 				</div>
 			)
 			}
