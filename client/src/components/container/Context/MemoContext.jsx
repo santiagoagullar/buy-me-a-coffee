@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { ethers } from "ethers"
 import { contract_abi, contract_address } from '../../../utils/constants'
 
@@ -24,6 +24,11 @@ export const MemosProvider = ({ children }) => {
 	const handleChange = (e, name) => {
 		setformData((prevState) => ({ ...prevState, [name]: e.target.value }));
 	};
+
+	useEffect(() => {
+		getAllMemos()
+	}, [])
+
 
 	const sendMemo = async () => {
 		try {
@@ -61,7 +66,7 @@ export const MemosProvider = ({ children }) => {
 	const getAllMemos = async () => {
 		try {
 			if (ethereum) {
-				const memosContract = createContract();
+				const memosContract = createContract()
 
 				const memos = await memosContract.getMemos()
 
@@ -75,7 +80,8 @@ export const MemosProvider = ({ children }) => {
 				console.log("Ethereum is not present");
 			}
 		} catch (error) {
-			console.error(error);
+			console.error(error)
+			console.log("no ethereum")
 		}
 	}
 
@@ -88,7 +94,6 @@ export const MemosProvider = ({ children }) => {
 			if (accounts.length) {
 				setCurrentAccount(accounts[0])
 				setWallet('connected')
-				getAllMemos()
 			} else {
 				setWallet('')
 			}

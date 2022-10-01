@@ -61,11 +61,14 @@ main {
 		strong {
 			font-size: 22px;
 			max-width: 80%;
+		}
 
-			@media only screen and (max-height:600px) {
+		@media only screen and (max-height:600px) {
+
+			p,
+			strong {
 				font-size: 11px;
 			}
-
 		}
 	}
 }
@@ -124,6 +127,10 @@ main {
 			color: white;
 		}
 
+		@media only screen and (max-height:600px) {
+			font-size: 11px;
+		}
+
 	}
 
 	.error {
@@ -140,6 +147,10 @@ main {
 		padding: 5px;
 		outline: 0;
 		font-size: 20px;
+
+		@media only screen and (max-height:600px) {
+			font-size: 11px;
+		}
 	}
 
 	.error_message {
@@ -270,4 +281,11 @@ main {
 	.input-container-mobile {
 		padding: 20px;
 	}
+}
+
+.connect_wallet_container {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
