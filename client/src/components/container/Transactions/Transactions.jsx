@@ -72,8 +72,8 @@ const Transactions = () => {
 						))}
 					</div>
 				</Swiper>) : (
-				<div className='connect_wallet_container' id="holis">
-					<h3>Connect to wallet to view latest coffess sent :)</h3>
+				<div className='connect_wallet_container'>
+					<p>Connect to wallet to view latest coffess sent :)</p>
 				</div>
 			)
 			}
