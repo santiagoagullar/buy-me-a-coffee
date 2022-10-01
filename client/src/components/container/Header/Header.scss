@@ -59,7 +59,7 @@ main {
 		p,
 		code,
 		strong {
-			font-size: 18px;
+			font-size: 15px;
 			max-width: 80%;
 		}
 
@@ -116,7 +116,7 @@ main {
 		padding: 5px;
 		margin: 10px;
 		font-weight: 900;
-		font-size: 18px;
+		font-size: 15px;
 		border-color: white;
 		cursor: pointer;
 		margin-bottom: 0;
@@ -146,7 +146,7 @@ main {
 		border: 0;
 		padding: 5px;
 		outline: 0;
-		font-size: 18px;
+		font-size: 15px;
 
 		@media only screen and (max-height:600px) {
 			font-size: 11px;
@@ -154,7 +154,7 @@ main {
 	}
 
 	.error_message {
-		font-size: 15px;
+		font-size: 13px;
 		color: red;
 	}
 }
@@ -186,7 +186,7 @@ main {
 			justify-content: center;
 
 			p {
-				font-size: 18px;
+				font-size: 15px;
 
 				@media(max-width:654px) {
 					font-size: 11px;
@@ -232,7 +232,7 @@ main {
 		padding: 5px;
 		margin: 10px;
 		font-weight: 900;
-		font-size: 18px;
+		font-size: 15px;
 		border-color: white;
 		cursor: pointer;
 		margin-bottom: 0;
@@ -266,7 +266,7 @@ main {
 	}
 
 	.error_message {
-		font-size: 15px;
+		font-size: 13px;
 		color: red;
 	}
 }
