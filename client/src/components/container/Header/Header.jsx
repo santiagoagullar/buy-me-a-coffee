@@ -75,8 +75,8 @@ const Header = () => {
 			<div className="intro-container-mobile">
 				<div className="intro-text-mobile">
 					<h2>Send <code>Santiago</code> a coffee!</h2>
-					<p id="tuvieja">By using <strong>coffee-pal</strong> you can send some ETH, for what a coffee is worth!</p>
-					<p id="tuviejaentanga">Send a coffee as a way to support along with a nice message!</p>
+					<p>By using <strong>coffee-pal</strong> you can send some ETH, for what a coffee is worth!</p>
+					<p>Send a coffee as a way to support along with a nice message!</p>
 				</div>
 				<div className="img-container-mobile">
 					<img src={coffee}></img>
