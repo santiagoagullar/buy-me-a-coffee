@@ -45,7 +45,7 @@ const Header = () => {
 		<main>
 			<div className="intro-container">
 				<div className="intro-text">
-					<h2>Send <code>Santiago</code> a coffee!</h2>
+					<h2>Send Santiago a coffee!</h2>
 					<p>By using <strong>coffee-pal</strong> you can send some ETH, for what a coffee is worth!</p>
 					<p>Send a coffee as a way to support along with a nice message!</p>
 				</div>
@@ -74,7 +74,7 @@ const Header = () => {
 			</div>
 			<div className="intro-container-mobile">
 				<div className="intro-text-mobile">
-					<h2>Send <code>Santiago</code> a coffee!</h2>
+					<h2>Send Santiago a coffee!</h2>
 					<p>By using <strong>coffee-pal</strong> you can send some ETH, for what a coffee is worth!</p>
 					<p>Send a coffee as a way to support along with a nice message!</p>
 				</div>
