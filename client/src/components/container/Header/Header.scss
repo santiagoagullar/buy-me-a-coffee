@@ -239,7 +239,10 @@ main {
 
 		&:hover {
 			background-color: black;
-			color: white;
+
+			code {
+				color: white;
+			}
 		}
 
 		@media(max-width:654px) {
