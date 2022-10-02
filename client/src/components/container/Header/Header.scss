@@ -237,6 +237,10 @@ main {
 		margin-bottom: 0;
 		transition: background-color 0.5s, color 0.5s;
 
+		code {
+			color: black;
+		}
+
 		&:hover {
 			background-color: black;
 
